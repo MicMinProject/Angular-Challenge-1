@@ -1,0 +1,29 @@
+.page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  height: 100vh;
+  margin: 0;
+}
+
+
+  .page_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    flex: none;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: #ddd;
+
+  }
+
+  .page_fact{
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+  }
+

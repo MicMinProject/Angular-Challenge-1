@@ -27,5 +27,17 @@
     "@angular/cli": "^17.3.8",
     "@angular/compiler-cli": "^17.3.10",
     "typescript": "~5.4.5"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicMinProject/Angular-Challenge-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicMinProject/Angular-Challenge-1/issues"
+  },
+  "homepage": "https://github.com/MicMinProject/Angular-Challenge-1#readme"
 }
