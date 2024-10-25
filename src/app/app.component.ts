@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 import { AsyncPipe } from '@angular/common';
 
 export interface FactModel {
-  fact: string;
+  readonly fact: string;
 }
 
 @Component({
@@ -18,5 +18,4 @@ export interface FactModel {
 export class AppComponent {
   httpClient: HttpClient = inject(HttpClient);
   data$: Observable<FactModel> = this.httpClient.get<FactModel>('https://catfact.ninja/fact');
-  title = 'mentoring-program-starter-kit';
 }
